@@ -59,6 +59,7 @@ namespace NfcClient
             #endregion
 
             this.DataContext = new MainViewModel(_config);
+            this.Visibility = Visibility.Hidden;
             //((MainViewModel)DataContext).CreatedTip += ViewModel_CreatedTip;
         }
 

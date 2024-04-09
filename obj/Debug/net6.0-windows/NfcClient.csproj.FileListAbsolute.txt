@@ -128,3 +128,4 @@ D:\Develop\NfcClient\obj\Debug\net6.0-windows\Views\AddView.g.cs
 D:\Develop\NfcClient\obj\Debug\net6.0-windows\Views\AddView.baml
 D:\Develop\NfcClient\obj\Debug\net6.0-windows\Views\UpdateView.g.cs
 D:\Develop\NfcClient\obj\Debug\net6.0-windows\Views\UpdateView.baml
+D:\Develop\NfcClient\obj\Debug\net6.0-windows\NfcClient.sourcelink.json

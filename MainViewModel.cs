@@ -172,16 +172,16 @@ namespace NfcClient
         [RelayCommand]
         private void MinWindow(Window window)
         {
-            if (window.WindowState == WindowState.Minimized)
+            if (window.Visibility == Visibility.Hidden)
             {
-                window.WindowState = WindowState.Normal;
+                window.Visibility = Visibility.Visible;
+                //window.WindowState = WindowState.Normal;
                 window.Activate();
-                window.Show();
             }
             else
             {
-                window.WindowState = WindowState.Minimized;
-                window.Hide();
+                window.Visibility = Visibility.Hidden;
+                //window.WindowState = WindowState.Minimized;
             }
         }
         #endregion

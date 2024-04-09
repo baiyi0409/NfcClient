@@ -16,9 +16,9 @@
     MinHeight="435"
     d:DataContext="{d:DesignInstance Type=local:MainViewModel}"
     ExtendsContentIntoTitleBar="True"
+    ShowInTaskbar="False"
     WindowBackdropType="Mica"
     WindowCornerPreference="Default"
-    WindowState="Minimized"
     WindowStyle="None"
     mc:Ignorable="d">
     <Grid>
